@@ -1,0 +1,167 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="11"    
+    tools:context=".DrinkDetailActivity" >
+
+<TextView android:id="@+id/drinkname_text"
+    style="?android:attr/textAppearanceLarge"
+    android:textStyle="bold"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp"
+    android:layout_gravity="center_vertical"
+    android:text="Drink Name"
+    tools:context=".DrinkDetailFragment" />
+<Button
+    android:id="@+id/gimme_button"
+    android:layout_height="40dp"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/btn_blue"
+    android:text="GIMME!"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    tools:context=".DrinkDetailFragment" />
+
+<TextView 
+    style="?android:attr/textAppearanceLarge"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:text="Amount"/>
+<SeekBar android:id="@+id/qty_slider"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/qty_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<TextView 
+    style="?android:attr/textAppearanceLarge"
+    android:layout_gravity="center_vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:text="Ingredients"/>
+<TextView />
+
+<TextView android:id="@+id/i0_text"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:text="I0" />
+<SeekBar android:id="@+id/i0_slider"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/ingredient_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<TextView android:id="@+id/i1_text"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:text="I1" />
+<SeekBar android:id="@+id/i1_slider"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/ingredient_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<TextView android:id="@+id/i2_text"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:text="I2" />
+<SeekBar android:id="@+id/i2_slider"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/ingredient_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<TextView android:id="@+id/i3_text"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:text="I3" />
+<SeekBar android:id="@+id/i3_slider"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/ingredient_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<TextView android:id="@+id/i4_text"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:text="I4" />
+<SeekBar android:id="@+id/i4_slider"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/ingredient_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<TextView android:id="@+id/i5_text"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:text="I5" />
+<SeekBar android:id="@+id/i5_slider"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/ingredient_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<TextView android:id="@+id/i6_text"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:text="I6" />
+<SeekBar android:id="@+id/i6_slider"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/ingredient_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<TextView android:id="@+id/i7_text"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:text="I7" />
+<SeekBar android:id="@+id/i7_slider"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:max="16"
+    android:progress="8"
+    android:layout_gravity="fill_horizontal"
+    android:progressDrawable="@drawable/ingredient_seek"
+    tools:context=".DrinkDetailFragment"/>
+
+<FrameLayout android:id="@+id/preview"
+	android:layout_width="50dp"
+	android:layout_height="20dp">
+</FrameLayout>
+<TextView />
+
+</GridLayout>
